@@ -13,7 +13,7 @@ counter = 1
 loop do
   counter += 1
 puts phrase
-  break if number_of_times < counter
+  break if number_of_times == counter
 end
 end
 
